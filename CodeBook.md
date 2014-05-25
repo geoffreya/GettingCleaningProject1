@@ -89,7 +89,7 @@ for example you might want to see only the "x", "y" or "z" coordinate, "mean" or
 The rows associated with the variables of interest are then most easily queried using the row-selection syntax of the built-in R data.frame.
 By contrast, it would be more unnatural and inconvenient with the built-in R data.frame
 to have to query a data frame by dynamically choosing columns of interest.
-For the stated reasons of query simplicity, it was decided to be better to avoid putting the selected variable names as a list of 53 columns in a data.frame.
+For the stated reasons of query simplicity using the tidy data set in a follow-on analysis phase, it was decided to be better to avoid putting the selected variable names as a list of 53 columns in a data.frame. Putting the variable names into the rows, as I have done here, would likely result in simpler analysis coding on the tidy data set in any follow-on analysis effort.
 
 
 
